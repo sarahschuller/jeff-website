@@ -52,6 +52,19 @@ a:hover{
   transition: 1.2s;
 }
 
+button {
+  background-color: var(--accent);
+  color: var(--dark);
+  padding: 5px;
+  width: 100px;
+  border-radius: 3%;
+}
+
+button:hover {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
 .page-header {
     display: flex;
     justify-content: right;
