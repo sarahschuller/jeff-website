@@ -123,6 +123,60 @@ span {
     padding: 10px;
 }
 
+.contact-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  overflow: hidden;
+  max-width: 800px;
+  margin: 20px;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-form {
+  font-size: 12px;
+  padding: 0 10px 20px 10px;
+}
+
+.contact-form label {
+  color: var(--dark);
+  display: block;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
+
+.contact-form input {
+  background: var(--light);
+  border: 1px solid var(--accent);
+  padding: 6px;
+  width: 100%;
+}
+
+.contact-action {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.contact-action label {
+  font-size: 12px;
+  float: left;
+  margin: 10px 0 0 20px;
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+}
+
 @media screen and (max-width: 600px) {
     .extra-img {
         width: 130px;
