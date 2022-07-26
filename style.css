@@ -146,7 +146,7 @@ button:hover {
 .slideIn {
     display: flex;
     flex-direction: row;
-    animation-duration: 4s;
+    animation-duration: 2.5s;
     animation-name: slidein;
     justify-content: center;
     align-items: center;
