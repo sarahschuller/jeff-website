@@ -49,7 +49,7 @@ a:hover{
   text-decoration: none;
   padding: 3px;
   border-radius: 3%;
-  transition: 1.2s;
+  transition: .7s;
 }
 
 button {
