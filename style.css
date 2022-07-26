@@ -63,6 +63,7 @@ button {
 button:hover {
   background-color: var(--dark);
   color: var(--light);
+  transition: .5s;
 }
 
 .page-header {
@@ -122,12 +123,20 @@ button:hover {
     width: 200px;
 }
 
+.home h1 {
+  text-align: left;
+}
+
 .about-pic {
     display: inline;
     float: right;
     margin: 10px;
     padding: 10px;
     max-width: 300px;
+}
+
+.about h1 {
+  text-align: right;
 }
 
 .extra-img-wrapper {
@@ -202,6 +211,26 @@ fieldset {
 textarea {
   width: 100%;
   resize: vertical;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+
+.footer-link:hover {
+  background-color: var(--main);
+  transform: rotate(1turn);
+  transition: 1.3s;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 600px) {
