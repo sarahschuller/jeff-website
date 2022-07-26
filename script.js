@@ -15,3 +15,4 @@ function onScroll() {
         document.querySelector('.extra-img-wrapper').className = 'slideIn'
     }
 }
+
