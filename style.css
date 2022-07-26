@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;;
+}
+
 :root {
     --light: #CCCCCC;
     --main: #BBBBBB;
@@ -104,20 +108,19 @@ span {
 }
 
 .slideIn {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
     animation-duration: 4s;
     animation-name: slidein;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    margin: 20px;
-    padding: 30px;
-    transition: 1s fade;
+    margin: 10px;
 }
 
 .extra-img {
-    max-width: 250px;
-    margin: 5px;
+    max-width: 300px;
+    margin: 10px;
+    padding: 10px;
 }
 
 @media screen and (max-width: 600px) {
@@ -144,8 +147,7 @@ span {
 
 @media screen and (min-width: 750px) and (max-width: 800px) {
     .extra-img {
-        width: 200px;
-        margin: 10px;
+        width: 225px;
     }
 }
 
