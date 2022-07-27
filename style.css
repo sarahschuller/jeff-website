@@ -246,7 +246,7 @@ footer img {
 
 @media screen and (max-width: 600px) {
     .extra-img {
-        width: 130px;
+        width: 115px;
     }
 
     .navigation-list li {
@@ -256,6 +256,10 @@ footer img {
 
     .logo-span {
       font-size: 26px;
+    }
+
+    .about-img {
+      width: 250px;
     }
 }
 
