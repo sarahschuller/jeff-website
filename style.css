@@ -249,13 +249,13 @@ footer img {
         width: 115px;
     }
 
-    .navigation-list li {
+    .navigation-list {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .logo-span {
-      font-size: 26px;
+      font-size: 20px;
     }
 
     .about-img {
