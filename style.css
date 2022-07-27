@@ -87,22 +87,23 @@ button:hover {
   
 .navigation-list {
     list-style-type: none;
+    float: right;
   }
   
   .navigation-list li {
     display: inline;
     margin: 0 5px;
-    font-size: 20px;
+    font-size: 16px;
   }
   
   .navigation-list a {
-    font-family: 'Kanit', sans-serif;    letter-spacing: 1px;
+    font-family: 'Kanit', sans-serif;    letter-spacing: .5px;
     color: var(--light);
     text-decoration: none;
   }
   
   .navigation-list a:hover {
-    font-family: 'Kanit', sans-serif;    letter-spacing: 1px;
+    font-family: 'Kanit', sans-serif;    letter-spacing: .5px;
     color: var(--accent);
   }
 
@@ -255,7 +256,7 @@ footer img {
     }
 
     .logo-span {
-      font-size: 20px;
+      font-size: 18px;
     }
 
     .about-img {
