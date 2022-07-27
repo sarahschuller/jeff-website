@@ -131,8 +131,11 @@ button:hover {
 }
 
 .about {
-  display: flex;
-  flex-direction: column;
+ 
+}
+
+.about img {
+  float: right;
 }
 
 .about-img {
@@ -140,7 +143,6 @@ button:hover {
     padding: 10px;
     max-width: 400px;
     border-radius: 50%;
-    float: right;
 }
 
 .about h1 {
