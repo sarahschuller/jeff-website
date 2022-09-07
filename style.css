@@ -119,6 +119,10 @@ button:hover {
     font-family: 'Noto Sans', sans-serif;    font-size: 20px;
 }
 
+.home {
+  padding: 15px;
+}
+
 .home-pic {
     display: inline;
     float: left;
@@ -132,7 +136,7 @@ button:hover {
 }
 
 .about {
- 
+  padding: 15px;
 }
 
 .about img {
@@ -168,6 +172,10 @@ button:hover {
     max-width: 300px;
     margin: 10px;
     padding: 10px;
+}
+
+.contact {
+  padding: 15px;
 }
 
 .contact-me {
