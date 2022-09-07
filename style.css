@@ -254,9 +254,14 @@ footer img {
 }
 
 @media screen and (max-width: 600px) {
+    .home {
+      text-align: center;
+    }
+  
     .about {
       display: flex;
       flex-direction: column;
+      text-align: center;
     }
     .extra-img {
         width: 115px;
@@ -273,7 +278,7 @@ footer img {
     }
 
     .about-img {
-      width: 250px;
+      width: 300px;
     }
 }
 
