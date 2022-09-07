@@ -265,6 +265,7 @@ footer img {
     .navigation-list {
         display: flex;
         flex-direction: row;
+        padding-top: 15px;
     }
 
     .logo-span {
